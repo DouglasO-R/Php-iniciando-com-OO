@@ -2,10 +2,10 @@
 include_once("Carro.php");
 
 $mercedes = new Carro();
-$mercedes->cor = "preto";
-$mercedes->ano = "2016";
-$mercedes->motor = 1.8;
-$mercedes->marca = "mercedes benz";
+$mercedes->setCor("preto") ;
+$mercedes->setAno("2016");
+$mercedes->setMotor(1.8) ;
+$mercedes->setMarca("mercedes benz")  ;
 
 echo $mercedes->getMarca()." do ano de:".$mercedes->getAno();
 
