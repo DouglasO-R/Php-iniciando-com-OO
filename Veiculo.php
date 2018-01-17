@@ -7,6 +7,10 @@ Class Veiculo{
     public $marca;
     public $motor;
 
+    public function __construct($motor, $cor){
+        $this->motor = $motor;
+        $this->cor = $cor;
+    }
     public function getCor(){
         return $this->cor;
     }

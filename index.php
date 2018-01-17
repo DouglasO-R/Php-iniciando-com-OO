@@ -1,17 +1,18 @@
 <?php
 include_once("Carro.php");
 include_once("Moto.php");
-$mercedes = new Carro();
-$mercedes->setCor("preto") ;
+
+$mercedes = new Carro("1.8","preto");
+
 $mercedes->setAno("2016");
-$mercedes->setMotor(1.8) ;
+
 $mercedes->setMarca("mercedes benz")  ;
 $mercedes->portas = 2;
 
-$bis = new Moto();
-$bis->setCor("preto") ;
+$bis = new Moto(1.8,"preto" );
+
 $bis->setAno("2016");
-$bis->setMotor(1.8) ;
+
 $bis->setMarca("honda")  ;
 
 echo $mercedes->getMarca()." do ano de:".$mercedes->getAno()."<br>";
