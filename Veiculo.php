@@ -2,10 +2,10 @@
 
 Class Veiculo{
 
-    public $cor;
-    public $ano;
-    public $marca;
-    public $motor;
+    private $cor;
+    private $ano;
+    private $marca;
+    private $motor;
 
     public function __construct($motor, $cor){
         $this->motor = $motor;
