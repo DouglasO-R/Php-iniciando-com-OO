@@ -1,6 +1,7 @@
 <?php
 include_once("Carro.php");
 include_once("Moto.php");
+include_once("IVeiculo.php");
 
 $mercedes = new Carro("1.8","preto");
 $mercedes->setAno("2016");

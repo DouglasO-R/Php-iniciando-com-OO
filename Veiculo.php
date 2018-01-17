@@ -1,6 +1,7 @@
 <?php
+include_once("IVeiculo.php");
 
-Class Veiculo{
+abstract Class Veiculo implements IVeiculo{
 
     private $cor;
     private $ano;
